@@ -20,3 +20,17 @@
                         "main"
                         "footer";
 }
+
+.header {
+  grid-area: header;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
