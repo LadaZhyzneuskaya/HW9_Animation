@@ -32,6 +32,16 @@
   padding: 20px 0 40px 0;
 }
 
+.nav-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-bottom: 50px;
+}
+
 .main {
   grid-area: main;
 }
