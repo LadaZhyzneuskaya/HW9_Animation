@@ -104,6 +104,10 @@
   animation-direction: alternate;
 }
 
+.circle:hover {
+  animation-play-state: paused;
+}
+
 @keyframes ball {
   0% {
     background-color: #6254af;
