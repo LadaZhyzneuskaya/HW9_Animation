@@ -97,4 +97,76 @@
   border-radius: 50%;
   position: relative;
   background-color: #6254af;
+  animation-name: ball;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes ball {
+  0% {
+    background-color: #6254af;
+    top: 70px;
+    left: 10px;
+  }
+
+  10% {
+    background-color: #807b5f;
+    top: 0px;
+    left: 110px;
+  }
+
+  20% {
+    background-color: #acab44f;
+    top: 140px;
+    left: 230px;
+  }
+
+  30% {
+    background-color: #78c924;
+    top: 0px;
+    left: 350px;
+  }
+
+  40% {
+    background-color: #26b09c;
+    top: 140px;
+    left: 470px;
+  }
+
+  50% {
+    background-color: #3c71ce;
+    top: 0px;
+    left: 590px;
+  }
+
+  60% {
+    background-color: #9f6ccb;
+    top: 140px;
+    left: 710px;
+  }
+
+  70% {
+    background-color: #c76cc8;
+    top: 0px;
+    left: 820px;
+  }
+
+  80% {
+    background-color: #d5685b;
+    top: 140px;
+    left: 950px;
+  }
+
+  90% {
+    background-color: #952611;
+    top: 0px;
+    left: 1070px;
+  }
+
+  100% {
+    background-color: #721175;
+    top: 70px;
+    left: 1160px;
+  }
 }
