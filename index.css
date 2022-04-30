@@ -79,6 +79,12 @@
   grid-template: auto / auto;
   justify-items: center;
   align-items: center;
+  transition: all 1500ms;
+  transition-timing-function: ease;
+}
+
+.div:hover {
+  transform: rotate(180deg);
 }
 
 .footer {
