@@ -63,6 +63,22 @@
 
 .main {
   grid-area: main;
+  display: grid;
+  grid-template: repeat(2, 200px) / repeat(auto-fit, minmax(200px, 200px));
+  grid-auto-rows: 200px;
+  justify-content: center;
+  grid-gap: 10px 30px;
+  padding: 25px;
+}
+
+.div {
+  background-color: #540b82;
+  color: #f0f8ff;
+  font-size: 25px;
+  display: grid;
+  grid-template: auto / auto;
+  justify-items: center;
+  align-items: center;
 }
 
 .footer {
