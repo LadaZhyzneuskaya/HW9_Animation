@@ -89,6 +89,7 @@
 
 .footer {
   grid-area: footer;
+  min-height: 200px;
 }
 
 .circle {
